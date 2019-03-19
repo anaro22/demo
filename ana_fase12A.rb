@@ -58,6 +58,11 @@ directorio_fase2 = "#{Dir.pwd}/fase12A1/salida_fase2.txt"
 archivo_idf="C:\\Users\\anabelen\\Documents\\ecoShade\\Exercise2A.idf"
 #------------------------------------------------------------------------------------------------
 
+Hola mundo
+
+
+que guapa soy
+ que tipo tengo
 
 Shade.using_sketchup = false
 #Create the project
@@ -95,6 +100,7 @@ for i in 0..num_rasgos1-1
   ultimos_coeficientes1[i]=rand-0.5 #Numero aleatorio entre -0.5 y 0.5
 end
 
+toma que toma toma que toma 
 for i in 0..num_rasgos2-1
   ultimos_coeficientes2[i]=rand-0.5 #Numero aleatorio entre -0.5 y 0.5
 end
@@ -122,6 +128,7 @@ lsa.load("#{Dir.pwd}/30formas/forma21.txt")
 problem_module_fase1.set_state(State.new(lsa))
 
 
+pero no puedo cagar
 pt=problem_module_fase1.clean_walls(Dir.pwd)
 problem_module.set_state(State.new(pt.clone))
 problem_module.save_shape_and_plot("#{Dir.pwd}/fase12A1/salida_prueba.txt")

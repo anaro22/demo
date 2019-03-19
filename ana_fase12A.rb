@@ -52,7 +52,7 @@ nombre_directorio_prueba2= "fase12A1/prueba2"
 
 forma_inicial = "walls-axiom4.txt" 
 directorio_fase1 = "#{Dir.pwd}/fase12A1/salida_fase1.txt"
-directorio_fase2 = "#{Dir.pwd}/fase12A1/salida_fase2.txt" 
+# directorio_fase2 = "#{Dir.pwd}/fase12A1/salida_fase2.txt" 
 
 
 archivo_idf="C:\\Users\\anabelen\\Documents\\ecoShade\\Exercise2A.idf"
@@ -122,7 +122,7 @@ lsa.load("#{Dir.pwd}/30formas/forma21.txt")
 problem_module_fase1.set_state(State.new(lsa))
 
 
-pt=problem_module_fase1.clean_walls(Dir.pwd)
+# pt=problem_module_fase1.clean_walls(Dir.pwd)
 problem_module.set_state(State.new(pt.clone))
 problem_module.save_shape_and_plot("#{Dir.pwd}/fase12A1/salida_prueba.txt")
 
@@ -163,6 +163,8 @@ problem_module.save_shape_and_plot("#{Dir.pwd}/fase12A1/salida_prueba.txt")
   
   #recompensa=alcanza_maximo?(problem_module2, politica_fase2, nombre_directorio_prueba2, recompensa_maxima)
   
+asdadasdasdasdasdasdasdasd
+
   if(eco)
     puts "Genera forma Fase 2"
   end  
